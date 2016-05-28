@@ -1,6 +1,43 @@
 body{
-	font-size: 16px;
+	font-size: 1em;
 	color:#D8D8D8;
 	background-color: #82AFF8;
 	font-family: 'Poppins', sans-serif;
+	position: absolute;
+}
+h2{
+	padding: 5px;
+}
+.content{
+	font-size: 1.6em;
+	position: relative;
+  	background-color: #9EBFF5;
+  	padding: 10px;
+  	overflow: hidden;
+  	height: 1000px;
+  	width: 100%;
+  	margin: 0 auto 15px;
+}
+/** HEADER **/
+#header-nav{
+	background-color: #9EBFF5;
+	border-radius: 0;
+	border:0;
+}
+.navbar-brand{
+	font-size: 3.4em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-shadow: 1px 1px 1px #626263;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#collapsable-nav{
+	background-color: #CADEFE;
+	font-size: 20px;
+	text-align: center;
+}
+hr{
+	margin: 0px;
 }
